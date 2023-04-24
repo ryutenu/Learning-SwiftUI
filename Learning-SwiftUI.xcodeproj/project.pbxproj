@@ -16,6 +16,7 @@
 		E7E3B32B29F03A7600BC5F59 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = E7E3B32929F03A7600BC5F59 /* style.html */; };
 		E7E3B32D29F03BC000BC5F59 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3B32C29F03BC000BC5F59 /* Models.swift */; };
 		E7E3B33129F2DDB400BC5F59 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3B33029F2DDB400BC5F59 /* HomeViewRow.swift */; };
+		E7E3B33329F6BFAC00BC5F59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3B33229F6BFAC00BC5F59 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E7E3B32929F03A7600BC5F59 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		E7E3B32C29F03BC000BC5F59 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		E7E3B33029F2DDB400BC5F59 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		E7E3B33229F6BFAC00BC5F59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				E7E3B31629EEE04700BC5F59 /* HomeView.swift */,
 				E7E3B33029F2DDB400BC5F59 /* HomeViewRow.swift */,
+				E7E3B33229F6BFAC00BC5F59 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				E7E3B31729EEE04700BC5F59 /* HomeView.swift in Sources */,
 				E7E3B33129F2DDB400BC5F59 /* HomeViewRow.swift in Sources */,
+				E7E3B33329F6BFAC00BC5F59 /* ContentView.swift in Sources */,
 				E7E3B31529EEE04700BC5F59 /* Learning_SwiftUIApp.swift in Sources */,
 				E7E3B32629EEE0F200BC5F59 /* ContentModel.swift in Sources */,
 				E7E3B32D29F03BC000BC5F59 /* Models.swift in Sources */,
