@@ -43,6 +43,7 @@ struct HomeView: View {
             }
             .navigationTitle("Get Started")
         }
+        .navigationViewStyle(.stack)
     }
 }
 
