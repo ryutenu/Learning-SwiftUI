@@ -25,21 +25,15 @@ struct ContentDetailView: View {
             // Description
             CodeTextView()
             
-            if model.hasNextLesson() {
-                Button {
-                    model.nextLesson()
-                } label: {
-                    ZStack {
-                        Rectangle()
-                            .frame(height: 45)
-                            .foregroundColor(.green)
-                            .cornerRadius(10)
-                            .shadow(radius: 5)
-                        
-                        Text("Next Lesson: \(model.getNextLessonTitle())")
-                            .foregroundColor(.white)
-                            .bold()
-                    }
+            Button {
+                model.hasNextLesson() ? model.nextLesson() : print("Complete")
+            } label: {
+                ZStack {
+                    RectangleCard()
+                    
+                    Text(model.hasNextLesson() ? "Next Lesson: \(model.getNextLessonTitle())" : "Complete")
+                        .foregroundColor(.white)
+                        .bold()
                 }
             }
         }

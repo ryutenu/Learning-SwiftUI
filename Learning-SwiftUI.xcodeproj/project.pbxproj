@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E72493D929FEB4CC0049BD89 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72493D829FEB4CC0049BD89 /* RectangleCard.swift */; };
 		E7E3B31529EEE04700BC5F59 /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3B31429EEE04700BC5F59 /* Learning_SwiftUIApp.swift */; };
 		E7E3B31729EEE04700BC5F59 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3B31629EEE04700BC5F59 /* HomeView.swift */; };
 		E7E3B31929EEE04800BC5F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E3B31829EEE04800BC5F59 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E72493D829FEB4CC0049BD89 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		E7E3B31129EEE04700BC5F59 /* Learning-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E3B31429EEE04700BC5F59 /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
 		E7E3B31629EEE04700BC5F59 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E7E3B33229F6BFAC00BC5F59 /* ContentView.swift */,
 				E7E3B33629F7FF0400BC5F59 /* ContentDetailView.swift */,
 				E7E3B33D29FAAFD600BC5F59 /* CodeTextView.swift */,
+				E72493D829FEB4CC0049BD89 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				E7E3B31729EEE04700BC5F59 /* HomeView.swift in Sources */,
 				E7E3B33129F2DDB400BC5F59 /* HomeViewRow.swift in Sources */,
 				E7E3B33329F6BFAC00BC5F59 /* ContentView.swift in Sources */,
+				E72493D929FEB4CC0049BD89 /* RectangleCard.swift in Sources */,
 				E7E3B33729F7FF0400BC5F59 /* ContentDetailView.swift in Sources */,
 				E7E3B31529EEE04700BC5F59 /* Learning_SwiftUIApp.swift in Sources */,
 				E7E3B32629EEE0F200BC5F59 /* ContentModel.swift in Sources */,
